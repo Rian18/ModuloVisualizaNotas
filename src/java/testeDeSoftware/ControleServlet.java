@@ -14,7 +14,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet(name = "controleServlet", urlPatterns = {"/inicial.html"})
+@WebServlet(name = "controleServlet", urlPatterns = {"/inicial.html","/index.html","/cadastro-pessoas.html"})
 public class ControleServlet extends HttpServlet {
 
     
@@ -24,6 +24,8 @@ public class ControleServlet extends HttpServlet {
             throws ServletException, IOException {
         Map<String, String> rotas = new HashMap<>();
         rotas.put("/inicial.html", "testeDeSoftware.CommandInicial");
+        rotas.put("/index.html", "testeDeSoftware.CommandIndex");
+        rotas.put("/cadastro-pessoas.html", "testeDeSoftware.CommandCadastro");
     
         String clazzName = rotas.get(request.getServletPath());
           
