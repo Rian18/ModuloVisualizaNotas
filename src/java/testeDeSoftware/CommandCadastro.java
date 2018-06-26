@@ -22,6 +22,7 @@ public class CommandCadastro implements Comando{
     
         
         RequestDispatcher despachante = request.getRequestDispatcher("/WEB-INF/cadastro-pessoas.jsp");
+        
         despachante.forward (request, response);
 
     }
