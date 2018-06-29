@@ -33,7 +33,7 @@
                           <div class="container-fluid">
 
                  <a href="notas.html" class="btn btn-danger btn-lg"> Ver notas </a>
-                <a href="login.html"  data-toggle="modal" data-target="#myModal"  class="btn btn-default btn-lg"> Ver gráficos</a>
+              
             </div>
         </div>
         <footer style="color: #c1c1c3; text-align: center;"  class="footer navbar-fixed-bottom">
